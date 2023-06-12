@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Boat Game</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body class="b" onkeydown="key(event);">
+    <div class="B" id="B">
+        <img src="boat running.gif" class="S" id="S" />
+        <div class="scoreboard" id="scoreboard">
+            <p class="score" id="score">0</p>
+            <p class="scoretext">--Score--</p>
+            <img src="press any arrow.gif" class="ArrowKeyPress" id="ArrowKeyPress">
+            <img src="1000 to win.gif" class="closetowin" id="closetowin">
+        </div>
+    </div>
+
+    <div class="end" id="end">
+        <div><img src="Game Over.gif" class="gameover"></div>
+        <div class="yourscore1">Your Score</div>
+        <div class="yourscore2" id="endscore">0</div>
+        <button class="btn" onkeydown="re();"><img class="Continue" src="Press Enter To Restart.gif" /></button>
+    </div>
+    <div class="win" id="win">
+        <div class="Score">
+            <p class="p1">Your Score</p>
+            <p class="p2">10000</p>
+        </div>
+        <div><img src="You Passed level 01 (2).gif" class="Passed">
+            <img src="Level 01.gif" class="level1" onclick="level1();" />
+            <img src="Level 02.gif" class="level2" onclick="level2();">
+        </div>
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+
+</html>

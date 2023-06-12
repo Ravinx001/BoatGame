@@ -1,0 +1,320 @@
+.B {
+    position: absolute;
+    background-image: url("background.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: repeat-y;
+    overflow-y: hidden;
+
+}
+
+.b {
+    margin: 0px;
+}
+
+.S {
+    margin-top: 10px;
+    margin-left: 640px;
+    position: absolute;
+    height: 170px;
+    width: 93px;
+}
+
+.FW1 {
+    margin-left: 640px;
+    position: absolute;
+    height: 100px;
+    width: 150px;
+}
+
+.FW2 {
+    margin-left: 190px;
+    position: absolute;
+    height: 100px;
+    width: 150px;
+}
+
+.FW3 {
+    margin-left: 1010px;
+    position: absolute;
+    height: 90px;
+    width: 180px;
+}
+
+.FW4 {
+    margin-left: 350px;
+    position: absolute;
+    height: 150px;
+    width: 300px;
+}
+
+.FW5 {
+    margin-left: 795px;
+    position: absolute;
+    height: 130px;
+    width: 200px;
+}
+
+.rotate {
+    animation: rotation 2s;
+    height: 170px;
+    width: 93px;
+    ;
+    position: absolute;
+}
+
+.linear {
+    animation-timing-function: linear;
+}
+
+.infinite {
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.score {
+    font-family: "Ravie";
+    position: absolute;
+    font-family: "Arial";
+    font-size: 60px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-left: 20px;
+    text-shadow: 2px 2px 5px rgb(238, 255, 0);
+}
+
+.scoretext {
+    position: absolute;
+    font-weight: bold;
+    font-family: "Ravie";
+    font-size: 32px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin-top: -05px;
+    margin-left: 25px;
+    text-shadow: 2px 2px 5px rgb(255, 238, 0);
+
+}
+
+.scoreboard {
+    position: absolute;
+    border-style: double;
+    border-width: 8px;
+    border-color: rgb(255, 255, 255);
+    width: 240px;
+    height: 100px;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-left: 5px;
+    visibility: visible;
+}
+
+.end {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: transparent;
+
+    font-family: "orange juice";
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    visibility: hidden;
+    opacity: 1;
+}
+
+@font-face {
+    src: url(orange\ juice\ 2.0.ttf);
+    font-family: "orange juice";
+}
+
+.btn {
+    height: 80px;
+    width: 500px;
+    background-color: rgb(0, 0, 0);
+
+    font-size: 50px;
+    font-family: "orange juice";
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+
+    border-radius: 20px;
+    cursor: pointer;
+    border-width: 6px;
+}
+
+.gameover {
+    position: absolute;
+    margin-left: -500px;
+    margin-top: -200px;
+    width: 1000px;
+    height: 500px;
+}
+
+.yourscore1 {
+    margin-top: 150px;
+    font: size 50px;
+    ;
+    font-family: "orange juice";
+    font-size: 100px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px red;
+}
+
+
+.yourscore2 {
+    margin-top: -20px;
+    font: size 50px;
+    ;
+    font-family: "orange juice";
+    font-size: 100px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px red;
+}
+
+.Continue {
+    height: 40px;
+    width: 450px;
+}
+
+.ArrowKeyPress{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 190px;
+    visibility: visible;
+}
+
+.passlimit{
+    margin-left: 160px;
+    font-size: 50px;
+    font-family: "orange juice";
+    color: rgb(251, 255, 0);
+    text-shadow: 5px 5px 2px rgb(0, 0, 0);
+
+    position: absolute;
+    width: 1000px;
+}
+
+
+
+
+
+
+
+.win {
+    position: absolute;
+    background-color: rgb(64, 68, 70);
+    visibility: hidden;
+    opacity: 0.95;
+
+    height: 100vh;
+    width: 100%;
+}
+
+.Score {
+    background-color: transparent;
+    border-color: rgb(0, 0, 0);
+    border-style: double;
+    border-radius: 20px;
+    border-width: 8px;
+    height: 150px;
+    width: 400px;
+
+    position: absolute;
+    font-family: "orange juice";
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px rgb(251, 255, 0);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 460px;
+    margin-left: 480px;
+}
+
+.p2 {
+    margin-top: -50px;
+}
+
+@font-face {
+    src: url(orange\ juice\ 2.0.ttf);
+    font-family: "orange juice";
+}
+
+.Passed{
+    position: absolute;
+    height: 400px;
+    width: 500px;
+    margin-left: 450px;
+    margin-top: 10px;
+}
+
+.level1{
+    position: absolute;
+    height: 250px;
+    width: 300px;
+    margin-top: 250px;
+    margin-left: 50px;
+    border-color: brown;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 10px;
+    cursor: pointer;
+}
+
+.level2{
+    position: absolute;
+    height: 250px;
+    width: 300px;
+    margin-top: 250px;
+    margin-left: 990px;
+    border-color: brown;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 10px;
+    cursor: pointer;
+}
+
+.level1:hover {
+    border-color: black;
+    border-style: dotted;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.level2:hover {
+    border-color: black;
+    border-style: dotted;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.closetowin{
+    position: absolute;
+    width: 800px;
+    height: 70px;
+    margin-left: 255px;
+    visibility: hidden;
+}

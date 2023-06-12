@@ -1,0 +1,83 @@
+.start {
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+
+    font-family: "orange juice";
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+}
+
+.keymap {
+    position: absolute;
+    margin-left: 750px;
+    margin-top: 1000px;
+    height: 250px;
+    width: 700px;
+}
+
+.gamename {
+    position: absolute;
+    width: 900px;
+    height: 200px;
+    margin-top: 200px;
+    margin-left: 1350px;
+}
+
+
+.bts {
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 1370px;
+    height: 150px;
+    width: 550px;
+    background-color: rgb(0, 0, 0);
+    border-color: rgba(250, 16, 199, 0.87);
+    border-style: double;
+    border-width: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.bts:hover {
+    background-color: rgb(2, 2, 59);
+    color: rgb(255, 255, 255);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.startb {
+    position: absolute;
+    width: 500px;
+    margin-left: -250px;
+    margin-top: -50px;
+}
+
+.startboat1 {
+    position: absolute;
+    height: 130px;
+    margin-left: 390px;
+    margin-top: 545px;
+}
+
+.startboat2 {
+    position: absolute;
+    height: 130px;
+    margin-left: 2330px;
+    margin-top: 550px;
+}
+
+.trademark { 
+    position: absolute;
+    margin-left: 2060px;
+    margin-top: 1000px;
+    height: 200px;
+    width: 600px;
+}

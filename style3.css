@@ -1,0 +1,84 @@
+.win {
+    background-color: rgb(64, 68, 70);
+}
+
+.Score {
+    background-color: transparent;
+    border-color: rgb(0, 0, 0);
+    border-style: double;
+    border-radius: 20px;
+    border-width: 8px;
+    height: 150px;
+    width: 400px;
+
+    position: absolute;
+    font-family: "orange juice";
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px rgb(251, 255, 0);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 460px;
+    margin-left: 480px;
+}
+
+.p2 {
+    margin-top: -50px;
+}
+
+@font-face {
+    src: url(orange\ juice\ 2.0.ttf);
+    font-family: "orange juice";
+}
+
+.Passed{
+    position: absolute;
+    height: 400px;
+    width: 500px;
+    margin-left: 450px;
+    margin-top: 10px;
+}
+
+.level1{
+    position: absolute;
+    height: 250px;
+    width: 300px;
+    margin-top: 250px;
+    margin-left: 50px;
+    border-color: brown;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 10px;
+    cursor: pointer;
+}
+
+.level2{
+    position: absolute;
+    height: 250px;
+    width: 300px;
+    margin-top: 250px;
+    margin-left: 990px;
+    border-color: brown;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 10px;
+    cursor: pointer;
+}
+
+.level1:hover {
+    border-color: black;
+    border-style: dotted;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.level2:hover {
+    border-color: black;
+    border-style: dotted;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
